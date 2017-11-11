@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF5C89171FB7AABD0002DE51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5C89161FB7AABD0002DE51 /* AppDelegate.swift */; };
+		AF5C89191FB7AABD0002DE51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5C89181FB7AABD0002DE51 /* ViewController.swift */; };
+		AF5C891C1FB7AABD0002DE51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF5C891A1FB7AABD0002DE51 /* Main.storyboard */; };
+		AF5C891E1FB7AABD0002DE51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF5C891D1FB7AABD0002DE51 /* Assets.xcassets */; };
+		AF5C89211FB7AABD0002DE51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF5C891F1FB7AABD0002DE51 /* LaunchScreen.storyboard */; };
+		AF5C892C1FB7AABD0002DE51 /* LIFETAGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5C892B1FB7AABD0002DE51 /* LIFETAGTests.swift */; };
+		AF5C89371FB7AABD0002DE51 /* LIFETAGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5C89361FB7AABD0002DE51 /* LIFETAGUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF5C89281FB7AABD0002DE51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF5C890B1FB7AABD0002DE51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF5C89121FB7AABD0002DE51;
+			remoteInfo = LIFETAG;
+		};
+		AF5C89331FB7AABD0002DE51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF5C890B1FB7AABD0002DE51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF5C89121FB7AABD0002DE51;
+			remoteInfo = LIFETAG;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF5C89131FB7AABD0002DE51 /* LIFETAG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LIFETAG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF5C89161FB7AABD0002DE51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF5C89181FB7AABD0002DE51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF5C891B1FB7AABD0002DE51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF5C891D1FB7AABD0002DE51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF5C89201FB7AABD0002DE51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF5C89221FB7AABD0002DE51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF5C89271FB7AABD0002DE51 /* LIFETAGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LIFETAGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF5C892B1FB7AABD0002DE51 /* LIFETAGTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LIFETAGTests.swift; sourceTree = "<group>"; };
+		AF5C892D1FB7AABD0002DE51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF5C89321FB7AABD0002DE51 /* LIFETAGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LIFETAGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF5C89361FB7AABD0002DE51 /* LIFETAGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LIFETAGUITests.swift; sourceTree = "<group>"; };
+		AF5C89381FB7AABD0002DE51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF5C89101FB7AABD0002DE51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5C89241FB7AABD0002DE51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5C892F1FB7AABD0002DE51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF5C890A1FB7AABD0002DE51 = {
+			isa = PBXGroup;
+			children = (
+				AF5C89151FB7AABD0002DE51 /* LIFETAG */,
+				AF5C892A1FB7AABD0002DE51 /* LIFETAGTests */,
+				AF5C89351FB7AABD0002DE51 /* LIFETAGUITests */,
+				AF5C89141FB7AABD0002DE51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF5C89141FB7AABD0002DE51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF5C89131FB7AABD0002DE51 /* LIFETAG.app */,
+				AF5C89271FB7AABD0002DE51 /* LIFETAGTests.xctest */,
+				AF5C89321FB7AABD0002DE51 /* LIFETAGUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF5C89151FB7AABD0002DE51 /* LIFETAG */ = {
+			isa = PBXGroup;
+			children = (
+				AF5C89161FB7AABD0002DE51 /* AppDelegate.swift */,
+				AF5C89181FB7AABD0002DE51 /* ViewController.swift */,
+				AF5C891A1FB7AABD0002DE51 /* Main.storyboard */,
+				AF5C891D1FB7AABD0002DE51 /* Assets.xcassets */,
+				AF5C891F1FB7AABD0002DE51 /* LaunchScreen.storyboard */,
+				AF5C89221FB7AABD0002DE51 /* Info.plist */,
+			);
+			path = LIFETAG;
+			sourceTree = "<group>";
+		};
+		AF5C892A1FB7AABD0002DE51 /* LIFETAGTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF5C892B1FB7AABD0002DE51 /* LIFETAGTests.swift */,
+				AF5C892D1FB7AABD0002DE51 /* Info.plist */,
+			);
+			path = LIFETAGTests;
+			sourceTree = "<group>";
+		};
+		AF5C89351FB7AABD0002DE51 /* LIFETAGUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF5C89361FB7AABD0002DE51 /* LIFETAGUITests.swift */,
+				AF5C89381FB7AABD0002DE51 /* Info.plist */,
+			);
+			path = LIFETAGUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF5C89121FB7AABD0002DE51 /* LIFETAG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF5C893B1FB7AABD0002DE51 /* Build configuration list for PBXNativeTarget "LIFETAG" */;
+			buildPhases = (
+				AF5C890F1FB7AABD0002DE51 /* Sources */,
+				AF5C89101FB7AABD0002DE51 /* Frameworks */,
+				AF5C89111FB7AABD0002DE51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LIFETAG;
+			productName = LIFETAG;
+			productReference = AF5C89131FB7AABD0002DE51 /* LIFETAG.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF5C89261FB7AABD0002DE51 /* LIFETAGTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF5C893E1FB7AABD0002DE51 /* Build configuration list for PBXNativeTarget "LIFETAGTests" */;
+			buildPhases = (
+				AF5C89231FB7AABD0002DE51 /* Sources */,
+				AF5C89241FB7AABD0002DE51 /* Frameworks */,
+				AF5C89251FB7AABD0002DE51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF5C89291FB7AABD0002DE51 /* PBXTargetDependency */,
+			);
+			name = LIFETAGTests;
+			productName = LIFETAGTests;
+			productReference = AF5C89271FB7AABD0002DE51 /* LIFETAGTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF5C89311FB7AABD0002DE51 /* LIFETAGUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF5C89411FB7AABD0002DE51 /* Build configuration list for PBXNativeTarget "LIFETAGUITests" */;
+			buildPhases = (
+				AF5C892E1FB7AABD0002DE51 /* Sources */,
+				AF5C892F1FB7AABD0002DE51 /* Frameworks */,
+				AF5C89301FB7AABD0002DE51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF5C89341FB7AABD0002DE51 /* PBXTargetDependency */,
+			);
+			name = LIFETAGUITests;
+			productName = LIFETAGUITests;
+			productReference = AF5C89321FB7AABD0002DE51 /* LIFETAGUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF5C890B1FB7AABD0002DE51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Pawandeep Singh";
+				TargetAttributes = {
+					AF5C89121FB7AABD0002DE51 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					AF5C89261FB7AABD0002DE51 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AF5C89121FB7AABD0002DE51;
+					};
+					AF5C89311FB7AABD0002DE51 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AF5C89121FB7AABD0002DE51;
+					};
+				};
+			};
+			buildConfigurationList = AF5C890E1FB7AABD0002DE51 /* Build configuration list for PBXProject "LIFETAG" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF5C890A1FB7AABD0002DE51;
+			productRefGroup = AF5C89141FB7AABD0002DE51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF5C89121FB7AABD0002DE51 /* LIFETAG */,
+				AF5C89261FB7AABD0002DE51 /* LIFETAGTests */,
+				AF5C89311FB7AABD0002DE51 /* LIFETAGUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF5C89111FB7AABD0002DE51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5C89211FB7AABD0002DE51 /* LaunchScreen.storyboard in Resources */,
+				AF5C891E1FB7AABD0002DE51 /* Assets.xcassets in Resources */,
+				AF5C891C1FB7AABD0002DE51 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5C89251FB7AABD0002DE51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5C89301FB7AABD0002DE51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF5C890F1FB7AABD0002DE51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5C89191FB7AABD0002DE51 /* ViewController.swift in Sources */,
+				AF5C89171FB7AABD0002DE51 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5C89231FB7AABD0002DE51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5C892C1FB7AABD0002DE51 /* LIFETAGTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5C892E1FB7AABD0002DE51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5C89371FB7AABD0002DE51 /* LIFETAGUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF5C89291FB7AABD0002DE51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF5C89121FB7AABD0002DE51 /* LIFETAG */;
+			targetProxy = AF5C89281FB7AABD0002DE51 /* PBXContainerItemProxy */;
+		};
+		AF5C89341FB7AABD0002DE51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF5C89121FB7AABD0002DE51 /* LIFETAG */;
+			targetProxy = AF5C89331FB7AABD0002DE51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF5C891A1FB7AABD0002DE51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF5C891B1FB7AABD0002DE51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF5C891F1FB7AABD0002DE51 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF5C89201FB7AABD0002DE51 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF5C89391FB7AABD0002DE51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF5C893A1FB7AABD0002DE51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF5C893C1FB7AABD0002DE51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JJQD3XUQUF;
+				INFOPLIST_FILE = LIFETAG/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acedrop.acedrop.LIFETAG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF5C893D1FB7AABD0002DE51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JJQD3XUQUF;
+				INFOPLIST_FILE = LIFETAG/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acedrop.acedrop.LIFETAG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF5C893F1FB7AABD0002DE51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JJQD3XUQUF;
+				INFOPLIST_FILE = LIFETAGTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acedrop.acedrop.LIFETAGTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LIFETAG.app/LIFETAG";
+			};
+			name = Debug;
+		};
+		AF5C89401FB7AABD0002DE51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JJQD3XUQUF;
+				INFOPLIST_FILE = LIFETAGTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acedrop.acedrop.LIFETAGTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LIFETAG.app/LIFETAG";
+			};
+			name = Release;
+		};
+		AF5C89421FB7AABD0002DE51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JJQD3XUQUF;
+				INFOPLIST_FILE = LIFETAGUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acedrop.acedrop.LIFETAGUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LIFETAG;
+			};
+			name = Debug;
+		};
+		AF5C89431FB7AABD0002DE51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JJQD3XUQUF;
+				INFOPLIST_FILE = LIFETAGUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acedrop.acedrop.LIFETAGUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LIFETAG;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF5C890E1FB7AABD0002DE51 /* Build configuration list for PBXProject "LIFETAG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF5C89391FB7AABD0002DE51 /* Debug */,
+				AF5C893A1FB7AABD0002DE51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF5C893B1FB7AABD0002DE51 /* Build configuration list for PBXNativeTarget "LIFETAG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF5C893C1FB7AABD0002DE51 /* Debug */,
+				AF5C893D1FB7AABD0002DE51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF5C893E1FB7AABD0002DE51 /* Build configuration list for PBXNativeTarget "LIFETAGTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF5C893F1FB7AABD0002DE51 /* Debug */,
+				AF5C89401FB7AABD0002DE51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF5C89411FB7AABD0002DE51 /* Build configuration list for PBXNativeTarget "LIFETAGUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF5C89421FB7AABD0002DE51 /* Debug */,
+				AF5C89431FB7AABD0002DE51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF5C890B1FB7AABD0002DE51 /* Project object */;
+}
