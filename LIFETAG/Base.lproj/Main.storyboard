@@ -91,7 +91,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="bFj-xj-42Y">
-                                <rect key="frame" x="42" y="228" width="240" height="128"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="446"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
@@ -114,10 +114,6 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="sOp-fR-D5D">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="submit-button" translatesAutoresizingMaskIntoConstraints="NO" id="wOT-GG-eG3">
-                                <rect key="frame" x="62" y="594" width="256" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Firstname" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="73W-Lq-DUP">
@@ -204,10 +200,32 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jtX-xx-HOI">
+                                <rect key="frame" x="62" y="594" width="256" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="submit-button"/>
+                                <connections>
+                                    <action selector="submitButton:" destination="Yed-xs-VRT" eventType="touchUpInside" id="Cbp-h7-iEh"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="k6n-qa-Z96"/>
                     </view>
+                    <connections>
+                        <outlet property="DOBTxt" destination="GBB-c6-fYS" id="Fqu-Oh-pJZ"/>
+                        <outlet property="addressTxt" destination="yuK-wh-LUA" id="STg-3M-cV0"/>
+                        <outlet property="cityTxt" destination="8hp-8i-Q3R" id="V2N-IA-SHI"/>
+                        <outlet property="emailTxt" destination="zZy-7L-anF" id="uuI-O7-dU8"/>
+                        <outlet property="emergencyTxt" destination="dsQ-ln-uBq" id="7qd-wI-4wB"/>
+                        <outlet property="firstNameTxt" destination="73W-Lq-DUP" id="LcC-3D-pFX"/>
+                        <outlet property="lastNameTxt" destination="ZMT-7v-7RI" id="36p-er-hPz"/>
+                        <outlet property="passwordTxt" destination="T8F-AE-ZKv" id="80n-u0-bHY"/>
+                        <outlet property="phoneTxt" destination="XKg-d4-XMT" id="9fj-U9-vgb"/>
+                        <outlet property="rePasswordTxt" destination="CNA-9P-g99" id="1hk-la-3oc"/>
+                        <outlet property="stateTxt" destination="kGk-SN-fZX" id="L1C-kn-GgS"/>
+                        <outlet property="zipCodeTxt" destination="70L-bq-Jte" id="Cuf-Yz-Dtt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wj5-gR-yHy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
