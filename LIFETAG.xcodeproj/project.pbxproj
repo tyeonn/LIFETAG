@@ -16,7 +16,9 @@
 		AF5C89211FB7AABD0002DE51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF5C891F1FB7AABD0002DE51 /* LaunchScreen.storyboard */; };
 		AF5C892C1FB7AABD0002DE51 /* LIFETAGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5C892B1FB7AABD0002DE51 /* LIFETAGTests.swift */; };
 		AF5C89371FB7AABD0002DE51 /* LIFETAGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5C89361FB7AABD0002DE51 /* LIFETAGUITests.swift */; };
-		AF5C89471FB8232E0002DE51 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF5C89461FB8232E0002DE51 /* GoogleService-Info.plist */; };
+		AF5C89491FB829690002DE51 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF5C89481FB829690002DE51 /* GoogleService-Info.plist */; };
+		AF5C894B1FB8861A0002DE51 /* registerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5C894A1FB8861A0002DE51 /* registerViewController.swift */; };
+		AF5C894D1FB886340002DE51 /* mainProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5C894C1FB886340002DE51 /* mainProfileViewController.swift */; };
 		E399B19B34808A5F62986C43 /* Pods_LIFETAGUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1015243F35694711A3F2C55F /* Pods_LIFETAGUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,7 +60,9 @@
 		AF5C89321FB7AABD0002DE51 /* LIFETAGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LIFETAGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF5C89361FB7AABD0002DE51 /* LIFETAGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LIFETAGUITests.swift; sourceTree = "<group>"; };
 		AF5C89381FB7AABD0002DE51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AF5C89461FB8232E0002DE51 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AF5C89481FB829690002DE51 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		AF5C894A1FB8861A0002DE51 /* registerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerViewController.swift; sourceTree = "<group>"; };
+		AF5C894C1FB886340002DE51 /* mainProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainProfileViewController.swift; sourceTree = "<group>"; };
 		D0639286463D06E042661265 /* Pods-LIFETAGTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LIFETAGTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LIFETAGTests/Pods-LIFETAGTests.release.xcconfig"; sourceTree = "<group>"; };
 		D525CAFF4051574A869F1E85 /* Pods_LIFETAGTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LIFETAGTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -141,11 +145,13 @@
 			children = (
 				AF5C89161FB7AABD0002DE51 /* AppDelegate.swift */,
 				AF5C89181FB7AABD0002DE51 /* ViewController.swift */,
-				AF5C891A1FB7AABD0002DE51 /* Main.storyboard */,
+				AF5C894A1FB8861A0002DE51 /* registerViewController.swift */,
+				AF5C894C1FB886340002DE51 /* mainProfileViewController.swift */,
 				AF5C891D1FB7AABD0002DE51 /* Assets.xcassets */,
+				AF5C891A1FB7AABD0002DE51 /* Main.storyboard */,
 				AF5C891F1FB7AABD0002DE51 /* LaunchScreen.storyboard */,
 				AF5C89221FB7AABD0002DE51 /* Info.plist */,
-				AF5C89461FB8232E0002DE51 /* GoogleService-Info.plist */,
+				AF5C89481FB829690002DE51 /* GoogleService-Info.plist */,
 			);
 			path = LIFETAG;
 			sourceTree = "<group>";
@@ -285,7 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF5C89211FB7AABD0002DE51 /* LaunchScreen.storyboard in Resources */,
-				AF5C89471FB8232E0002DE51 /* GoogleService-Info.plist in Resources */,
+				AF5C89491FB829690002DE51 /* GoogleService-Info.plist in Resources */,
 				AF5C891E1FB7AABD0002DE51 /* Assets.xcassets in Resources */,
 				AF5C891C1FB7AABD0002DE51 /* Main.storyboard in Resources */,
 			);
@@ -471,8 +477,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF5C894B1FB8861A0002DE51 /* registerViewController.swift in Sources */,
 				AF5C89191FB7AABD0002DE51 /* ViewController.swift in Sources */,
 				AF5C89171FB7AABD0002DE51 /* AppDelegate.swift in Sources */,
+				AF5C894D1FB886340002DE51 /* mainProfileViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
