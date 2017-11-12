@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>901734765132-pb8555b2udmdkv9k6m1jur1vccnao33m.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.901734765132-pb8555b2udmdkv9k6m1jur1vccnao33m</string>
+	<key>API_KEY</key>
+	<string>AIzaSyACj7OYZSs9Vez_w_Eaf0UnPQf11vZtN_0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>901734765132</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.acedrop.acedrop.LIFETAG</string>
+	<key>PROJECT_ID</key>
+	<string>lifetag-b1d46</string>
+	<key>STORAGE_BUCKET</key>
+	<string>lifetag-b1d46.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:901734765132:ios:8a718a7e39f927e0</string>
+	<key>DATABASE_URL</key>
+	<string>https://lifetag-b1d46.firebaseio.com</string>
+</dict>
+</plist>

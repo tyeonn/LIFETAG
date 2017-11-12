@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B61A828C0B4A4A7AB01BE84 /* Pods_LIFETAGTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D525CAFF4051574A869F1E85 /* Pods_LIFETAGTests.framework */; };
+		8564141C70101D81816CEA31 /* Pods_LIFETAG.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 764338BD5A2F00F6AE7B4C62 /* Pods_LIFETAG.framework */; };
 		AF5C89171FB7AABD0002DE51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5C89161FB7AABD0002DE51 /* AppDelegate.swift */; };
 		AF5C89191FB7AABD0002DE51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5C89181FB7AABD0002DE51 /* ViewController.swift */; };
 		AF5C891C1FB7AABD0002DE51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF5C891A1FB7AABD0002DE51 /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		AF5C89211FB7AABD0002DE51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF5C891F1FB7AABD0002DE51 /* LaunchScreen.storyboard */; };
 		AF5C892C1FB7AABD0002DE51 /* LIFETAGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5C892B1FB7AABD0002DE51 /* LIFETAGTests.swift */; };
 		AF5C89371FB7AABD0002DE51 /* LIFETAGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5C89361FB7AABD0002DE51 /* LIFETAGUITests.swift */; };
+		AF5C89471FB8232E0002DE51 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF5C89461FB8232E0002DE51 /* GoogleService-Info.plist */; };
+		E399B19B34808A5F62986C43 /* Pods_LIFETAGUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1015243F35694711A3F2C55F /* Pods_LIFETAGUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02025372297FE029649816F5 /* Pods-LIFETAG.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LIFETAG.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LIFETAG/Pods-LIFETAG.debug.xcconfig"; sourceTree = "<group>"; };
+		1015243F35694711A3F2C55F /* Pods_LIFETAGUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LIFETAGUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16E9611799E746F81796A288 /* Pods-LIFETAGUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LIFETAGUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LIFETAGUITests/Pods-LIFETAGUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		24BFA22F1424070FD3920FDB /* Pods-LIFETAGUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LIFETAGUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LIFETAGUITests/Pods-LIFETAGUITests.release.xcconfig"; sourceTree = "<group>"; };
+		744F53CAC16A79193310E25A /* Pods-LIFETAG.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LIFETAG.release.xcconfig"; path = "Pods/Target Support Files/Pods-LIFETAG/Pods-LIFETAG.release.xcconfig"; sourceTree = "<group>"; };
+		764338BD5A2F00F6AE7B4C62 /* Pods_LIFETAG.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LIFETAG.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		906FBD799CC6A2F90D388AD6 /* Pods-LIFETAGTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LIFETAGTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LIFETAGTests/Pods-LIFETAGTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AF5C89131FB7AABD0002DE51 /* LIFETAG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LIFETAG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF5C89161FB7AABD0002DE51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF5C89181FB7AABD0002DE51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,9 @@
 		AF5C89321FB7AABD0002DE51 /* LIFETAGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LIFETAGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF5C89361FB7AABD0002DE51 /* LIFETAGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LIFETAGUITests.swift; sourceTree = "<group>"; };
 		AF5C89381FB7AABD0002DE51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF5C89461FB8232E0002DE51 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D0639286463D06E042661265 /* Pods-LIFETAGTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LIFETAGTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LIFETAGTests/Pods-LIFETAGTests.release.xcconfig"; sourceTree = "<group>"; };
+		D525CAFF4051574A869F1E85 /* Pods_LIFETAGTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LIFETAGTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8564141C70101D81816CEA31 /* Pods_LIFETAG.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B61A828C0B4A4A7AB01BE84 /* Pods_LIFETAGTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E399B19B34808A5F62986C43 /* Pods_LIFETAGUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E9BCF37782506218C920820 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02025372297FE029649816F5 /* Pods-LIFETAG.debug.xcconfig */,
+				744F53CAC16A79193310E25A /* Pods-LIFETAG.release.xcconfig */,
+				906FBD799CC6A2F90D388AD6 /* Pods-LIFETAGTests.debug.xcconfig */,
+				D0639286463D06E042661265 /* Pods-LIFETAGTests.release.xcconfig */,
+				16E9611799E746F81796A288 /* Pods-LIFETAGUITests.debug.xcconfig */,
+				24BFA22F1424070FD3920FDB /* Pods-LIFETAGUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7AE4480E766461C15FF56B15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				764338BD5A2F00F6AE7B4C62 /* Pods_LIFETAG.framework */,
+				D525CAFF4051574A869F1E85 /* Pods_LIFETAGTests.framework */,
+				1015243F35694711A3F2C55F /* Pods_LIFETAGUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AF5C890A1FB7AABD0002DE51 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +121,8 @@
 				AF5C892A1FB7AABD0002DE51 /* LIFETAGTests */,
 				AF5C89351FB7AABD0002DE51 /* LIFETAGUITests */,
 				AF5C89141FB7AABD0002DE51 /* Products */,
+				0E9BCF37782506218C920820 /* Pods */,
+				7AE4480E766461C15FF56B15 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +145,7 @@
 				AF5C891D1FB7AABD0002DE51 /* Assets.xcassets */,
 				AF5C891F1FB7AABD0002DE51 /* LaunchScreen.storyboard */,
 				AF5C89221FB7AABD0002DE51 /* Info.plist */,
+				AF5C89461FB8232E0002DE51 /* GoogleService-Info.plist */,
 			);
 			path = LIFETAG;
 			sourceTree = "<group>";
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF5C893B1FB7AABD0002DE51 /* Build configuration list for PBXNativeTarget "LIFETAG" */;
 			buildPhases = (
+				E562E860AAF3ECD7991D7829 /* [CP] Check Pods Manifest.lock */,
 				AF5C890F1FB7AABD0002DE51 /* Sources */,
 				AF5C89101FB7AABD0002DE51 /* Frameworks */,
 				AF5C89111FB7AABD0002DE51 /* Resources */,
+				14AA7D2E5F52E23B4C674A15 /* [CP] Embed Pods Frameworks */,
+				C635AB0719FE78472313DC1A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF5C893E1FB7AABD0002DE51 /* Build configuration list for PBXNativeTarget "LIFETAGTests" */;
 			buildPhases = (
+				47F733284362846FEB7515BD /* [CP] Check Pods Manifest.lock */,
 				AF5C89231FB7AABD0002DE51 /* Sources */,
 				AF5C89241FB7AABD0002DE51 /* Frameworks */,
 				AF5C89251FB7AABD0002DE51 /* Resources */,
+				FAB66D8398B8AF7B995694A5 /* [CP] Embed Pods Frameworks */,
+				AE01AF8CCEAE68946355F859 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF5C89411FB7AABD0002DE51 /* Build configuration list for PBXNativeTarget "LIFETAGUITests" */;
 			buildPhases = (
+				F45396A15D756BF908DA8C46 /* [CP] Check Pods Manifest.lock */,
 				AF5C892E1FB7AABD0002DE51 /* Sources */,
 				AF5C892F1FB7AABD0002DE51 /* Frameworks */,
 				AF5C89301FB7AABD0002DE51 /* Resources */,
+				132304A17C23910887ADB510 /* [CP] Embed Pods Frameworks */,
+				BB4F2475BD11FF5CA44179B6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF5C89211FB7AABD0002DE51 /* LaunchScreen.storyboard in Resources */,
+				AF5C89471FB8232E0002DE51 /* GoogleService-Info.plist in Resources */,
 				AF5C891E1FB7AABD0002DE51 /* Assets.xcassets in Resources */,
 				AF5C891C1FB7AABD0002DE51 /* Main.storyboard in Resources */,
 			);
@@ -253,6 +306,165 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		132304A17C23910887ADB510 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LIFETAGUITests/Pods-LIFETAGUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		14AA7D2E5F52E23B4C674A15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LIFETAG/Pods-LIFETAG-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LIFETAG/Pods-LIFETAG-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47F733284362846FEB7515BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LIFETAGTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE01AF8CCEAE68946355F859 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LIFETAGTests/Pods-LIFETAGTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB4F2475BD11FF5CA44179B6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LIFETAGUITests/Pods-LIFETAGUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C635AB0719FE78472313DC1A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LIFETAG/Pods-LIFETAG-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LIFETAG/Pods-LIFETAG-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E562E860AAF3ECD7991D7829 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LIFETAG-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F45396A15D756BF908DA8C46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LIFETAGUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAB66D8398B8AF7B995694A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LIFETAGTests/Pods-LIFETAGTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AF5C890F1FB7AABD0002DE51 /* Sources */ = {
@@ -424,6 +636,7 @@
 		};
 		AF5C893C1FB7AABD0002DE51 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02025372297FE029649816F5 /* Pods-LIFETAG.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +652,7 @@
 		};
 		AF5C893D1FB7AABD0002DE51 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 744F53CAC16A79193310E25A /* Pods-LIFETAG.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +668,7 @@
 		};
 		AF5C893F1FB7AABD0002DE51 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 906FBD799CC6A2F90D388AD6 /* Pods-LIFETAGTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +686,7 @@
 		};
 		AF5C89401FB7AABD0002DE51 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0639286463D06E042661265 /* Pods-LIFETAGTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +704,7 @@
 		};
 		AF5C89421FB7AABD0002DE51 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16E9611799E746F81796A288 /* Pods-LIFETAGUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +721,7 @@
 		};
 		AF5C89431FB7AABD0002DE51 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24BFA22F1424070FD3920FDB /* Pods-LIFETAGUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
