@@ -1,4 +1,4 @@
-#CUNY Hackathon 2017
+# CUNY Hackathon 2017
 # LIFETAG
 Medical application created by Pawandeep Singh, Alexander Melo, Debashish Karmaker, Timothy Wu, and Junhao Chen.  
 Application is to be used by first responders to triage patients during times of mass casualty incidents.  
